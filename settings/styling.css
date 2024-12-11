@@ -6,7 +6,7 @@ body {
     background: no-repeat center/100% url("../files/background.png");
 }
 .container {
-    max-width: 35%;
+    max-width: 40%;
     min-height: 100%;
     margin: auto;
     background-color: #ba2449;
@@ -23,9 +23,23 @@ body {
     text-align: center;
 }
 
-h3 {
+h1 {
+    font-size: 5%;
     text-align: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding: 5%;
+    color: #ffe0bc;
+}
+
+h2 {
+    font-size: 4%;
+    text-align: center;
+    padding: 5%;
+    color: #ffe0bc;
+}
+
+h3 {
+    font-size: 3%;
+    text-align: center;
+    padding: 5%;
     color: #ffe0bc;
 }
