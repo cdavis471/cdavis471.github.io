@@ -6,13 +6,13 @@ body {
     background: no-repeat center/100% url("../files/background.png");
 }
 .container {
-    max-width: 20%;
+    max-width: 35%;
     max-height: 100%;
     margin: auto;
     padding: 1%;
-    background-color: white;
-    border-left:2vw solid black;
-    border-right:2vw solid black;
+    background-color: #ba2449;
+    border-left:1.5vw solid #b61644;
+    border-right:1.5vw solid #b61644;
 }
 .button-container {
     display: flex;
