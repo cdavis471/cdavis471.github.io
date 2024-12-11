@@ -23,6 +23,12 @@ body {
     text-align: center;
 }
 
+.menu {
+    display: flex;              /* Creates a flex container */
+    justify-content: center;    /* Centers the headers horizontally */
+    align-items: center;        /* Vertically aligns headers within the container */
+}
+
 h1 {
     font-size: 2em;
     text-align: center;
@@ -31,14 +37,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     padding: 5%;
     color: #ffe0bc;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 0.75em;
     text-align: center;
     padding: 5%;
     color: #ffe0bc;
