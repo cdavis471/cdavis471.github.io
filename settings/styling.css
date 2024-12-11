@@ -51,8 +51,10 @@ h3 {
 }
 
 p {
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 0.75em;
     text-align: left;
-    padding: 10%;
+    margin: 20%;
+    padding: 20%;
     color: #ffe0bc;
 }
