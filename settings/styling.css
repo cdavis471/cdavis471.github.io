@@ -24,9 +24,9 @@ body {
 }
 
 .menu {
-    display: flex;              /* Creates a flex container */
-    justify-content: center;    /* Centers the headers horizontally */
-    align-items: center;        /* Vertically aligns headers within the container */
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
 }
 
 h1 {
@@ -47,5 +47,12 @@ h3 {
     font-size: 0.75em;
     text-align: center;
     padding: 5%;
+    color: #ffe0bc;
+}
+
+p {
+    font-size: 0.75em;
+    text-align: left;
+    padding: 10%;
     color: #ffe0bc;
 }
