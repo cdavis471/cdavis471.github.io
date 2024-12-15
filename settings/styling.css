@@ -66,6 +66,13 @@ p {
 
 }
 
+#intro img {
+
+    max-width: 30%;
+    max-height: 30%;
+
+}
+
 #workexp {
 
     max-width: 30%;
