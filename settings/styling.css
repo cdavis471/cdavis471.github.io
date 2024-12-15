@@ -16,8 +16,7 @@ body {
 
 .logo img {
     display: block;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 40vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -32,21 +31,21 @@ body {
 h1 {
     font-size: 2em;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
     color: #ffe0bc;
 }
 
 h2 {
     font-size: 1em;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
     color: #ffe0bc;
 }
 
 h3 {
     font-size: 0.75em;
     text-align: center;
-    padding: 5%;
+    padding: 1%;
     color: #ffe0bc;
 }
 
@@ -73,7 +72,6 @@ p {
     text-align: left;
     display: block;
     width: 20vw;
-    height: 20vh;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -84,7 +82,6 @@ p {
 
     display: block;
     width: 15vw;
-    height: 30vh;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
