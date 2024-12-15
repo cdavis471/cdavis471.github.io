@@ -62,8 +62,6 @@ p {
 #intro {
 
     display: block;
-    max-width: 50%;
-    max-height: 50%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -73,14 +71,20 @@ p {
 #intro img {
 
     text-align: left;
+    display: block;
+    width: 20vw;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
 #workexp {
 
     display: block;
-    max-width: 50%;
-    max-height: 50%;
+    width: 15vw;
+    height: 30vh;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
