@@ -61,21 +61,28 @@ p {
 
 #intro {
 
-    max-width: 60%;
-    max-height: 60%;
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
 #intro img {
 
-    max-width: 30%;
-    max-height: 30%;
+    text-align: left;
 
 }
 
 #workexp {
 
-    max-width: 30%;
-    max-height: 30%;
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
