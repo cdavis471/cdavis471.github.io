@@ -4,6 +4,7 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100%;
     background-image: url("../files/background.png");
     background: no-repeat center/100% url("../files/background.png");
 }
@@ -107,7 +108,6 @@ a:active {
     width: 20vw;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 /* Work Experience */
 #workexp {
@@ -120,9 +120,8 @@ a:active {
 }
 /* Work Experience Logos */
 #workexp img {
-    text-align: left;
     display: block;
-    width: 20vw;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
