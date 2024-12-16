@@ -61,32 +61,32 @@ p {
 }
 
 #intro {
-
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
 }
 
 #intro img {
-
     text-align: left;
     display: block;
     width: 20vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
 }
 
 #workexp {
-
     display: block;
     width: 15vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 2%;
+}
 
+a {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
