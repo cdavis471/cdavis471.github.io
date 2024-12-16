@@ -7,7 +7,7 @@ body {
     min-width:100vw;
     min-height:100vh;
     background-image: url("../files/background.png");
-    background: repeat center/100% url("../files/background.png");
+    background-repeat: repeat;
 }
 /* Main Container */
 .container {
