@@ -1,3 +1,5 @@
+/* GLOBAL STYLING */
+/* General */
 body {
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -5,6 +7,7 @@ body {
     background-image: url("../files/background.png");
     background: no-repeat center/100% url("../files/background.png");
 }
+/* Main Container */
 .container {
     max-width: 40%;
     min-height: 100%;
@@ -13,7 +16,7 @@ body {
     border-left:1.5vw solid #b61644;
     border-right:1.5vw solid #b61644;
 }
-
+/* CD Logo */
 .logo img {
     display: block;
     max-width: 25vw;
@@ -21,7 +24,7 @@ body {
     margin-right: auto;
     text-align: center;
 }
-
+/* Navigation Bar */
 .menu {
     display: flex;              
     justify-content: center;    
@@ -29,28 +32,28 @@ body {
     margin-bottom: 2vh;  
     margin-top: 2vh;  
 }
-
+/* Header 1 */
 h1 {
     font-size: 2em;
     text-align: center;
     padding: 3%;
     color: #ffe0bc;
 }
-
+/* Header 2 */
 h2 {
     font-size: 1em;
     text-align: center;
     padding: 2%;
     color: #ffe0bc;
 }
-
+/* Header 3 */
 h3 {
     font-size: 0.75em;
     text-align: center;
     padding: 1%;
     color: #ffe0bc;
 }
-
+/* Paragraph */
 p {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 0.75em;
@@ -59,14 +62,45 @@ p {
     padding: 8%;
     color: #ffe0bc;
 }
-
+/* Links */
+a {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-decoration: none;
+    color: #ffe0bc;
+}
+/* Link Formatting */
+a:link {
+    text-decoration: none;
+    color: #ffe0bc;
+}
+/* Link Visited */
+a:visited {
+    text-decoration: none;
+    color: #ffe0bc;
+}
+/* Link Hovering */
+a:hover {
+    text-decoration: none;
+    color: #e91c56;
+}
+/* Link Active */
+a:active {
+    text-decoration: none;
+    color: #b61644;
+}
+/* Page Specific */
+/* index.html */
+/* Introduction */
 #intro {
+    margin-top: 5vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-
+/* Personal Photo */
 #intro img {
     text-align: left;
     display: block;
@@ -75,7 +109,7 @@ p {
     margin-right: auto;
     text-align: center;
 }
-
+/* Work Experience */
 #workexp {
     display: block;
     width: 15vw;
@@ -84,9 +118,12 @@ p {
     text-align: center;
     padding: 2%;
 }
-
-a {
+/* Work Experience Logos */
+#workexp img {
+    text-align: left;
+    display: block;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
 }
