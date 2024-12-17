@@ -62,8 +62,15 @@ p {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 0.75em;
     text-align: left;
-    margin: 8%;
-    padding: 8%;
+    color: #ffe0bc;
+}
+ul {
+    text-align: left;
+    color: #ffe0bc;
+    max-width: 30%;
+}
+li {
+    text-align: left;
     color: #ffe0bc;
 }
 /* Links */
