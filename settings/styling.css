@@ -11,7 +11,7 @@ body {
 }
 /* Main Container */
 .container {
-    max-width: 40%;
+    max-width: 50%;
     min-height: 100%;
     margin: auto;
     background-color: #ba2449;
@@ -26,30 +26,52 @@ body {
     margin-right: auto;
     text-align: center;
 }
-/* Title Name */
-.menu {
-    display: flex;              
-    justify-content: center;    
-    align-items: center;    
-    margin-bottom: 3vh;  
-    margin-top: 3vh; 
-    width: 100%; 
-    background-color: #ffffff;
-}
 /* Navigation Bar */
 .menu {
-    display: flex;              
-    justify-content: center;    
-    align-items: center;    
-    margin-bottom: 2vh;  
-    margin-top: 2vh; 
-    width: 100%; 
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    justify-content: space-between; /* Separates logo and menu items completely */
+    flex-wrap: nowrap; /* Prevents wrapping of content */
+    width: 100%; /* Ensures the menu fits within the parent container */
+    max-width: 100%; /* Limits the width */
     background-color: #b61644;
+    padding: 0.5em 1em; /* Adds padding for better spacing */
+    box-sizing: border-box; /* Includes padding in the element's total width */
 }
+
+.menu img {
+    max-height: 3.2em; /* Scales the logo to fit with text size */
+    flex-shrink: 0; /* Prevents logo from shrinking */
+}
+
+.menu .menu-items {
+    display: flex; /* Aligns text buttons inline */
+    gap: 1em; /* Adds consistent space between the menu items */
+    margin-left: auto; /* Forces the menu items to align to the right */
+}
+
 .menu h2 {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin: 0; /* Removes any default margin */
+    font-size: 1em; /* Adjusts font size if necessary */
+    white-space: nowrap; /* Keeps text on a single line */
 }
+
+.menu a {
+    text-decoration: none; /* Removes underline from links */
+    color: #ffe0bc; /* Text color */
+    display: inline-block; /* Ensures text buttons align properly */
+}
+/* Line Break Styling */
+.menu-line {
+    height: 1px; /* Thickness of the line */
+    background-color: #ffe0bc; /* Gold color */
+    width: 100%; /* Spans the full width of the menu container */
+    margin: auto; /* Adds spacing around the line */
+    display: block; /* Ensures the line is visible as a block element */
+}
+
+
+
 /* Header 1 */
 h1 {
     font-size: 2em;
@@ -85,7 +107,6 @@ ul {
 }
 li {
     text-align: left;
-    font-size: 0.85em;
     color: #ffe0bc;
 }
 /* Links */
@@ -107,12 +128,12 @@ a:visited {
 /* Link Hovering */
 a:hover {
     text-decoration: none;
-    color: #e91c56;
+    color: #821933;
 }
 /* Link Active */
 a:active {
     text-decoration: none;
-    color: #b61644;
+    color: #821933;
 }
 /* Page Specific */
 /* index.html */
@@ -130,10 +151,11 @@ a:active {
 #intro img {
     text-align: left;
     display: block;
-    width: 20vw;
+    width: 33vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vh;
+    margin-bottom: 10vh;
 }
 /* Work Experience */
 #workexp {
@@ -152,4 +174,19 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+/* Portfolio Menu */
+#portfolio-menu-selection {
+    display: block;
+    text-align: center;
+    background-color:#b61644;
+}
+
+/* Portfolio Banners */
+#portfolio-menu-selection img {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    display: block;
+    width: 100%;
+
 }
