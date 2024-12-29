@@ -4,8 +4,8 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    min-width:100vw;
-    min-height:100vh;
+    min-width:90vw;
+    min-height:90vh;
     background-image: url("../files/background.png");
     background-repeat: repeat;
 }
@@ -28,6 +28,7 @@ body {
 }
 /* Navigation Bar */
 .menu {
+    height:15%;
     display: flex;
     align-items: center; /* Vertically aligns items */
     justify-content: space-between; /* Separates logo and menu items completely */
@@ -35,12 +36,13 @@ body {
     width: 100%; /* Ensures the menu fits within the parent container */
     max-width: 100%; /* Limits the width */
     background-color: #b61644;
-    padding: 0.5em 1em; /* Adds padding for better spacing */
+    padding: 1em 1.5em; /* Adds padding for better spacing */
     box-sizing: border-box; /* Includes padding in the element's total width */
 }
 
 .menu img {
-    max-height: 3.2em; /* Scales the logo to fit with text size */
+    text-align: left;
+    max-height: 3.6em; /* Scales the logo to fit with text size */
     flex-shrink: 0; /* Prevents logo from shrinking */
 }
 
@@ -69,26 +71,23 @@ body {
     margin: auto; /* Adds spacing around the line */
     display: block; /* Ensures the line is visible as a block element */
 }
-
-
-
 /* Header 1 */
 h1 {
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
     padding: 3%;
     color: #ffe0bc;
 }
 /* Header 2 */
 h2 {
-    font-size: 1.2em;
+    font-size: 2.4em;
     text-align: center;
     padding: 2%;
     color: #ffe0bc;
 }
 /* Header 3 */
 h3 {
-    font-size: 0.85em;
+    font-size: 1.7em;
     text-align: center;
     padding: 1%;
     color: #ffe0bc;
@@ -96,13 +95,13 @@ h3 {
 /* Paragraph */
 p {
     font-family: 'Trebuchet MS', sans-serif;
-    font-size: 0.85em;
+    font-size: 1.7em;
     text-align: left;
     color: #ffe0bc;
 }
 ul {
     text-align: left;
-    font-size: 0.85em;
+    font-size: 1.7em;
     color: #ffe0bc;
 }
 li {
@@ -179,7 +178,6 @@ a:active {
 #portfolio-menu-selection {
     display: block;
     text-align: center;
-    background-color:#b61644;
 }
 
 /* Portfolio Banners */
