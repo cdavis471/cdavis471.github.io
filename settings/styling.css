@@ -11,12 +11,14 @@ body {
 }
 /* Main Container */
 .container {
-    max-width: 50%;
-    min-height: 100%;
+    width: 50vw;
+    min-height: 100vh;
     margin: auto;
+    background-image: linear-gradient(#ffffff07, #00000007);
     background-color: #ba2449;
-    border-left:1.5vw solid #b61644;
-    border-right:1.5vw solid #b61644;
+    border-left:0.1vw solid #ffe0bc;
+    border-right:0.1vw solid #ffe0bc;
+    box-shadow: 0px 1vw 2vw 0.5vw rgba(0, 0, 0, 0.233)
 }
 /* CD Logo */
 .logo img {
@@ -25,6 +27,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+.menu-container {
+    background-image: linear-gradient(to right, #b61644, #ffffff00, #b61644);
 }
 /* Navigation Bar */
 .menu {
@@ -35,7 +40,6 @@ body {
     flex-wrap: nowrap; /* Prevents wrapping of content */
     width: 100%; /* Ensures the menu fits within the parent container */
     max-width: 100%; /* Limits the width */
-    background-color: #b61644;
     padding: 1em 1.5em; /* Adds padding for better spacing */
     box-sizing: border-box; /* Includes padding in the element's total width */
 }
@@ -65,7 +69,7 @@ body {
 }
 /* Line Break Styling */
 .menu-line {
-    height: 1px; /* Thickness of the line */
+    height: 0.1vh; /* Thickness of the line */
     background-color: #ffe0bc; /* Gold color */
     width: 100%; /* Spans the full width of the menu container */
     margin: auto; /* Adds spacing around the line */
@@ -177,14 +181,25 @@ a:active {
 /* Portfolio Menu */
 #portfolio-menu-selection {
     display: block;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    max-height: 80%;
 }
 
 /* Portfolio Banners */
 #portfolio-menu-selection img {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    border-bottom:0.1vh solid #ffe0bc;
+    border-top:0.1vh solid #ffe0bc;
+    margin-bottom:10vh;
     display: block;
     width: 100%;
+    box-shadow: 0px 1vw 2vw 0.5vw rgba(0, 0, 0, 0.075);
+}
 
+#portfolio-offer img {
+    border: 0;
+    box-shadow: 0vw 0vw 0vw 0vw;
 }
